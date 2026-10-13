@@ -1,0 +1,4 @@
+@echo off
+REM Example only. Replace with the actual commands for 13600KF-3080Ti.
+echo Add your 13600KF-3080Ti configuration commands here.
+pause

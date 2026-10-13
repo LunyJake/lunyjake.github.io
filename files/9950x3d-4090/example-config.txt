@@ -1,0 +1,4 @@
+@echo off
+REM Example only. Replace with the actual commands for 9950X3D-4090.
+echo Add your 9950X3D-4090 configuration commands here.
+pause

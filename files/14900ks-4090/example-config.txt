@@ -1,0 +1,4 @@
+@echo off
+REM Example only. Replace with the actual commands for 14900KS-4090.
+echo Add your 14900KS-4090 configuration commands here.
+pause
