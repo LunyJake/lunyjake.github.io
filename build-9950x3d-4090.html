@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080809">
+  <title>9950X3D-4090 | Justin's Windows Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="main-navigation" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Justin's Windows Lab home"><span class="brand-logo"><span></span></span><span><strong class="brand-name">Justin's Windows Lab</strong></span></a>
+      <div class="overview"><a href="index.html" class=""><span class="overview-icon" aria-hidden="true">⌗</span>Home</a></div>
+      <!-- Static navigation: always visible; no expand/collapse controls. -->
+      <div class="nav-group nav-static">
+        <a class="group-link" href="iso.html"><span class="mini-icon" aria-hidden="true">▣</span>ISOS</a>
+        <div class="nav-children">
+          <a class="nav-link" href="iso-personal.html">Personal</a>
+          <a class="nav-link" href="iso-other-people.html">Other People</a>
+        </div>
+      </div>
+      <div class="nav-group nav-static">
+        <a class="group-link active" href="builds.html"><span class="mini-icon" aria-hidden="true">◈</span>PERSONAL BUILDS</a>
+        <div class="nav-children">
+          <a class="nav-link" href="build-14900ks-4090.html">14900KS-4090</a>
+          <a class="nav-link active" href="build-9950x3d-4090.html" aria-current="page">9950X3D-4090</a>
+          <a class="nav-link" href="build-13600kf-3080ti.html">13600KF-3080Ti</a>
+        </div>
+      </div>
+      <div class="nav-group nav-static">
+        <span class="group-link group-heading"><span class="mini-icon" aria-hidden="true">≡</span>GUIDE</span>
+        <div class="nav-children">
+          <a class="nav-link" href="guide-installing.html">Installing Windows</a>
+        </div>
+      </div>
+    </aside>
+    <div class="scrim" aria-hidden="true"></div>
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-button" type="button" aria-label="Open navigation" aria-controls="main-navigation" aria-expanded="false">☰</button>
+        <a class="mobile-brand" href="index.html">Justin's Windows Lab</a>
+      </header>
+      <div class="content build-details-page">
+        <h1>9950X3D <span class="accent">4090</span></h1>
+        <p class="personal-lead build-lead">Hardware specifications, settings, and configuration files for this build.</p>
+
+        <!-- ======================================================
+             BUILD PARTS: Orange service-style badges identify each component.
+             Edit the value after the badge, or copy a full <li> to add a part.
+        ======================================================= -->
+        <section class="iso-section" id="build-parts" data-sidebar-title="PC Parts">
+          <div class="iso-section-heading">
+            <span class="iso-section-num">01</span>
+            <div><h2>PC Parts</h2><p>Hardware in this system</p></div>
+          </div>
+          <article class="inventory-panel">
+            <div class="inventory-heading"><div><span class="inventory-category">BUILD / HARDWARE</span><h3>Component List</h3></div></div>
+            <ul class="inventory-list build-parts-list">
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">CPU</span></span><span class="build-part-value">AMD Ryzen 9 9950X3D</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">GPU</span></span><span class="build-part-value">NVIDIA GeForce RTX 4090</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">Motherboard</span></span><span class="build-part-value is-placeholder">Add motherboard model</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">RAM</span></span><span class="build-part-value is-placeholder">Add RAM kit and capacity</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">CPU Cooler</span></span><span class="build-part-value is-placeholder">Add cooler model</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">Storage</span></span><span class="build-part-value is-placeholder">Add SSD/HDD details</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">Power Supply</span></span><span class="build-part-value is-placeholder">Add PSU model</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">Case</span></span><span class="build-part-value is-placeholder">Add case model</span></li>
+                <li><span class="row-marker"></span><span class="build-part-label"><span class="item-value status-manual">Case Fans</span></span><span class="build-part-value is-placeholder">Add fans / airflow setup</span></li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- ======================================================
+             CONFIGURATION FILES: Add new rows here for each BAT/TXT/REG.
+             View / Copy: data-code-preview points to hidden textarea ID.
+             Open TXT: href points to a real .txt in files/.
+             Keep the textarea text and TXT file content in sync.
+        ======================================================= -->
+        <section class="iso-section" id="build-files" data-sidebar-title="Configuration Files">
+          <div class="iso-section-heading">
+            <span class="iso-section-num">02</span>
+            <div><h2>Configuration Files</h2><p>View and copy settings without leaving the page, or open the text file directly</p></div>
+          </div>
+          <article class="inventory-panel">
+            <div class="inventory-heading"><div><span class="inventory-category">BUILD / SETTINGS</span><h3>Scripts &amp; Configs</h3></div></div>
+            <ul class="inventory-list build-files-list">
+              <!-- EXAMPLE FILE ROW — duplicate this row for more files. -->
+              <li>
+                <span class="row-marker"></span>
+                <div class="build-file-information">
+                  <strong>Example Configuration (.bat)</strong>
+                  <small>Demo placeholder — replace with your actual script</small>
+                </div>
+                <div class="build-file-actions">
+                  <button type="button" class="build-file-button" data-code-preview="example-config-code" data-code-title="Example Configuration (.bat)">View / Copy</button>
+                  <a class="build-file-link" href="files/9950x3d-4090/example-config.txt" target="_blank" rel="noopener noreferrer">Open TXT ↗</a>
+                </div>
+              </li>
+            </ul>
+          </article>
+          <p class="build-help">You can put BAT, CMD, REG, PowerShell, or plain text commands here. Use a <code>.txt</code> copy for the browser link so the browser displays the text instead of downloading or trying to run it.</p>
+        </section>
+
+        <!-- EDIT INLINE SCRIPT HERE. The code between the textarea tags is
+             what appears in the pop-up and gets copied. Edit the matching
+             files/9950x3d-4090/example-config.txt separately too. -->
+        <textarea id="example-config-code" hidden readonly>@echo off
+REM Example only. Replace with the actual commands for 9950X3D-4090.
+echo Add your 9950X3D-4090 configuration commands here.
+pause
+</textarea>
+
+        <!-- Shared modal; buttons with data-code-preview open this window. -->
+        <dialog class="build-code-dialog" id="build-code-dialog" aria-labelledby="build-dialog-title">
+          <div class="build-dialog-header">
+            <h2 id="build-dialog-title" data-code-title>View file</h2>
+            <button type="button" class="build-dialog-close" data-code-close aria-label="Close viewer">&times;</button>
+          </div>
+          <div class="build-dialog-body">
+            <p>Copy the commands below, or select only the lines you need.</p>
+            <textarea class="build-code-textarea" data-code-text readonly spellcheck="false" aria-label="File contents"></textarea>
+            <div class="build-dialog-footer">
+              <button type="button" class="build-dialog-button" data-code-copy>Copy All</button>
+              <span class="build-copy-result" data-code-copy-result aria-live="polite"></span>
+            </div>
+          </div>
+        </dialog>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

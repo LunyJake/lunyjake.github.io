@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080809">
+  <title>ISO | Justin's Windows Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="main-navigation" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Justin's Windows Lab home"><span class="brand-logo"><span></span></span><span><strong class="brand-name">Justin's Windows Lab</strong></span></a>
+      <div class="overview"><a href="index.html" class=""><span class="overview-icon" aria-hidden="true">⌗</span>Home</a></div>
+      <!-- Static navigation: always visible; no expand/collapse controls. -->
+      <div class="nav-group nav-static">
+        <a class="group-link active" href="iso.html" aria-current="page"><span class="mini-icon" aria-hidden="true">▣</span>ISOS</a>
+        <div class="nav-children">
+          <a class="nav-link" href="iso-personal.html">Personal</a>
+          <a class="nav-link" href="iso-other-people.html">Other People</a>
+        </div>
+      </div>
+      <div class="nav-group nav-static">
+        <a class="group-link" href="builds.html"><span class="mini-icon" aria-hidden="true">◈</span>PERSONAL BUILDS</a>
+        <div class="nav-children">
+          <a class="nav-link" href="build-14900ks-4090.html">14900KS-4090</a>
+          <a class="nav-link" href="build-9950x3d-4090.html">9950X3D-4090</a>
+          <a class="nav-link" href="build-13600kf-3080ti.html">13600KF-3080Ti</a>
+        </div>
+      </div>
+      <div class="nav-group nav-static">
+        <span class="group-link group-heading"><span class="mini-icon" aria-hidden="true">≡</span>GUIDE</span>
+        <div class="nav-children">
+          <a class="nav-link" href="guide-installing.html">Installing Windows</a>
+        </div>
+      </div>
+    </aside>
+    <div class="scrim" aria-hidden="true"></div>
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-button" type="button" aria-label="Open navigation" aria-controls="main-navigation" aria-expanded="false">☰</button>
+        <a class="mobile-brand" href="index.html">Justin's Windows Lab</a>
+      </header>
+      <div class="content">
+        <h1>Windows <span class="accent">ISOs</span></h1>
+        <!-- EDIT OVERVIEW INTRODUCTION: Change the paragraph below whenever you want. -->
+        <p class="section-intro">My personal Windows ISOs optimized for gaming and system responsiveness</p>
+        <!-- EDIT OVERVIEW OPTIONS: Each link opens its corresponding HTML page. -->
+        <div class="category-grid" aria-label="ISO pages">
+        <a class="category-card" href="iso-personal.html" id="iso-personal-preview" data-sidebar-title="Personal">
+          <div class="category-card-top"><span class="category-number">01</span><span class="category-arrow" aria-hidden="true">↗</span></div>
+          <h2>Personal</h2>
+          <p>My Windows ISO, optimized for gaming and system responsiveness</p>
+          <div class="category-card-foot">Open page <span aria-hidden="true">→</span></div>
+        </a>
+        <a class="category-card" href="iso-other-people.html" id="iso-other-people-preview" data-sidebar-title="Other People">
+          <div class="category-card-top"><span class="category-number">02</span><span class="category-arrow" aria-hidden="true">↗</span></div>
+          <h2>Other People</h2>
+          <p>Windows ISO optimized for gaming and system responsiveness with less aggressive optimizations</p>
+          <div class="category-card-foot">Open page <span aria-hidden="true">→</span></div>
+        </a>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
